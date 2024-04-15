@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        strong {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Giới thiệu bản thân</h1>
+        <?php
+        // Thông tin cá nhân
+        $name = "Nguyễn Trung Nam";
+        $age = 21;
+        $job = "Sinh Viên";
+        $email = "nguyentrungnam9523@gmail.com";
+
+        // Hiển thị thông tin cá nhân
+        echo "<p><strong>Họ và tên:</strong> $name</p>";
+        echo "<p><strong>Tuổi:</strong> $age</p>";
+        echo "<p><strong>Nghề nghiệp:</strong> $job</p>";
+        echo "<p><strong>Email:</strong> $email</p>";
+        ?>
+    </div>
+</body>
+</html>
